@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(206, 210, 213);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: 'Gill Sans', Calibri, Trebuchet MS, sans-serif;
+}
+form {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+}
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+}
+#button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
